@@ -7,7 +7,8 @@ exports.seed = function(knex, Promise) {
         // Inserts seed entries
         knex('todo').insert({item: 'Ignore Bennett\'s phone calls', complete: false}),
         knex('todo').insert({item: 'Buy watermelon', complete: false}),
-        knex('todo').insert({item: 'Learn AngularJS', complete: false})
+        knex('todo').insert({item: 'Learn AngularJS', complete: false}),
+        knex('todo').insert({item: 'Poke Bradford in the kidney', complete: false})
       ]);
     });
 };
